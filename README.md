@@ -29,7 +29,7 @@ Os usuários devem ser capazes de:
 
 ![](./Screenshot/desktop.png)
 
-![](./Screenshot/mobile.png.png)
+![](./Screenshot/mobile.png)
 
 ### Links
 
