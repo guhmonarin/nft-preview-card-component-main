@@ -32,7 +32,7 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- URL da solução: [Adicione o URL da solução aqui](https://your-solution-url.com)
+- URL da solução: [Github](https://github.com/guhmonarin/nft-preview-card-component-main)
 - URL do site ao vivo: [Adicione o URL do site ao vivo aqui](https://your-live-site-url.com)
 
 ## Meu processo
