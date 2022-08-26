@@ -28,6 +28,7 @@ Os usuários devem ser capazes de:
 ### Captura de tela
 
 ![](./Screenshot/desktop.png)
+
 ![](./Screenshot/mobile.png.png)
 
 ### Links
