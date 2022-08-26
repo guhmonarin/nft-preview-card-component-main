@@ -33,7 +33,7 @@ Os usuários devem ser capazes de:
 ### Links
 
 - URL da solução: [Github](https://github.com/guhmonarin/nft-preview-card-component-main)
-- URL do site ao vivo: [Adicione o URL do site ao vivo aqui](https://your-live-site-url.com)
+- URL do site ao vivo: [Vercel](https://nft-preview-card-component-main-olive.vercel.app/)
 
 ## Meu processo
 
