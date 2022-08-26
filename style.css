@@ -1,0 +1,120 @@
+:root {
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Very-dark-blue-main-BG: hsl(217, 54%, 11%);
+    --Very-dark-blue-card-BG: hsl(216, 50%, 16%);
+    --Very-dark-blue-line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+    --font: 'Outfit';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 18px;
+    font-family: var(--font);
+    background-color: var(--Very-dark-blue-main-BG);
+}
+
+main {
+    height: 97vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: var(--Very-dark-blue-card-BG);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;  
+    flex-direction: column;
+    height: 600px;
+    max-width: 350px;
+}
+
+.container__imagem {
+    margin: 7px 20px 0 20px;
+    max-width: 310px;
+    border-radius: 15px;
+}
+
+.container__titulo {
+    color: var(--White);
+    font-weight: 700;
+    padding: 0 20px;
+}
+
+.container__texto {
+    padding: 0 20px;
+    color: var(--Very-dark-blue-line);
+    font-weight: 500;
+}
+
+.container__lista {
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    width: calc(100% - 40px);
+    list-style-type: none;
+}
+
+.container__lista-item--preco {
+    color: var(--Cyan);
+    font-weight: 700;
+}
+
+.container__lista-item--preco::before {
+    content: url(./images/icon-ethereum.svg);
+    padding: 0 5px 0 0;
+}
+
+.container__lista-item--dias {
+    color: var(--Very-dark-blue-line);
+    font-weight: 500;
+    
+}
+
+.container__lista-item--dias::before {
+    content: url(./images/icon-clock.svg);
+    padding: 0 5px 0 0;
+}
+
+.container__autor {
+    margin: 0 20px;
+    padding: 20px 0;
+    border-top: 1px solid var(--Very-dark-blue-line);
+    color: var(--Very-dark-blue-line);
+    
+}
+
+.container__autor::before {
+    content:'';
+    background-image: url(./images/image-avatar.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 1px solid var(--White);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 9px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.container__autor--nome {
+    color: var(--White);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
